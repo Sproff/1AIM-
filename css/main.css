@@ -1,0 +1,126 @@
+/*  -------- HTML, BODY VALUES -------- */
+html, body {
+    font-family: 'Poppins', sans-serif;
+	text-rendering: optimizeLegibility; 
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+/*  -------- NAVIGATION -------- */
+.navbar-light .navbar-brand { 
+    color: #b48736;
+    text-shadow: 2px 2px #FBEAEB;
+}
+
+.logo {
+    height: 12vh;
+}
+
+.navbar-light .navbar-brand:hover {  color: #cba052;}
+   
+.navbar-light .navbar-nav .nav-link { color: #cba052;}
+.navbar-light .navbar-nav .active>.nav-link { color: #cba052;}
+.navbar-light .navbar-toggler { outline: none;}
+.navbar-light .navbar-nav .nav-link:hover { 
+    color: #cba052;
+    border-bottom: 2px solid #cba052;
+}
+
+nav { background-image: linear-gradient(to right, #fff, #cba052);}
+
+.bg-none { background-color: none;}
+
+
+/*  --------SIDEBAR NAVIGATION -------- */
+
+.side-nav-text { font-size: 2em;}
+    
+.navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -45%;
+    transition: all 0.2s ease;
+}
+
+.navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    height: auto;
+    width: 45%;
+    transition: left 0.35s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+   
+/*  -------- MAIN -------- */
+main  {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0.7, 0.7, 0.7, 0.7)),  url("../img/bg-img");
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.border-text-one { 
+    border: 1px solid #cba052;
+    outline: none!important;
+}
+
+.border-text-one:hover{
+    background-color: #cba052;
+    color: #FBEAEB;
+    cursor: pointer;
+}
+
+.btn:focus { outline: none!important;}
+
+.btn:hover {
+    background-color: #b48736;
+    color: #FBEAEB;
+    cursor: pointer;
+}
+
+/*  -------- REUSABLE COMPONENTS-------- */
+.donate-bg-one { background-color: #cba052;}
+.donate-bg-two { background-color: #FBEAEB;}
+.donate-text-one, .card-title { color: #cba052;}
+.donate-text-two { color: #FBEAEB;}
+
+.img-quote{
+    height: 1.5em;
+    width: 1.5em;
+}
+
+#quote {
+    padding-bottom: 3rem;
+}
+
+.quote-icon { color: #cba052;}
+
+
+/*  -------- FOOTER -------- */
+
+footer { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0.7, 0.7, 0.7, 0.7)),  url("../img/bg-img");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+
+textarea { resize: none;}
+
+
+
+
+
+/*  -------- BREAKPOINTS-------- */
+
+@media (min-width:992px) { .side-nav-text { display: none;} }

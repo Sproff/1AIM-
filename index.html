@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>1Aim Daily Confessions</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <a class="navbar-brand" href="index.html"><img src="/img/1AIM LOGO.png" class="logo" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav bg-light bg-lg-light m-0 ml-lg-auto p-3 p-lg-0">
+                        <li class="d-inline d-lg-none">
+                            <button data-toggle="collapse" data-target="#nav" class="close float-right">&times;</button>
+                        </li>
+                        <div class="mt-4">
+                            <a class="navbar-brand font-weight-bold pt-3 side-nav-text" href="index.html">1AIM</a>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link text-truncate bg-none" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-truncate bg-none" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-truncate bg-none" href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header> 
+
+        <main class="pt-5">
+            <div class="container pt-5 mt-5 px-lg-5">
+                <div class="header-text text-white text-left pt-sm-5 text-sm-center wow slideInLeft" data-wow-duration="2s">
+                    <h4 class="header-text-one donate-bg-one mt-5 p-2 p-sm-3 w-75 text-center mx-auto m-sm-auto text-uppercase font-weight-bold">Welcome to 1Aim Official Site</h4>
+                </div>
+        <br>
+                <div class="border-text-one text rounded text-center text-white mt-3 p-2 w-50 mx-auto m-sm-auto p-sm-3 mb-md-5" data-aos="fade-right">
+                    <h5 class="m-auto">COMING SOON !!!</h5>
+            </div>
+        </main>
+
+        <section>
+            <div class="container">
+                <div class="card mt-5">
+                    <div class="card-body">
+                     <h4 class="p-2 donate-bg-one text-center text-white font-weight-bold">1Aim Daily Confessions</h4>
+                     <p class=" font-weight-light" data-aos="zoom-in"> If you don’t have time to speak them all every day, just pick your favorites, or the ones that most apply to your situation, and declare those out loud daily.</p>
+                     <button onclick="displayConfessions()" class="btn donate-bg-one text-white"> View Confessions </button>
+                    </div>
+                </div>
+                <div id= "quote" class="quote mt-5">
+                    <!-- Quote is displayed here-->
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+              <div class="row py-5 text-white">
+                <div class="col-md-6 py-4">
+                  <div class="col-12 location d-flex">
+                    <div class="icon fa fa-map-marker pt-1 mx-2"></div>
+                    <h6 class="mt-1">Oye-Ekiti, Ekiti State</h6>
+                  </div>
+                  <div class="col-12 offers d-flex">
+                    <div class="icon fa fa-envelope pt-1 mx-2"></div>
+                    <h6 class="mt-1">1AIMChurch@gmail.com</h6>
+                  </div>
+                  <div class="col-12 d-flex">
+                    <div class="icon fa fa-phone pt-1 mx-2"></div>
+                    <h6 class="mt-1"><a href="#" class=" text-white">081 6417 9736</a></h6>
+                  </div>
+                </div>
+        
+                <div class="contact-us col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address:</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message:</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <br> 
+                    <br>
+                    <div class="donate-btn mt-n5 pb-5">
+                        <button class="btn donate-bg-one text-white"> Send Messsage </button>
+                    </div>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </footer>
+        
+
+
+        <!-- External JS Links -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
