@@ -16,9 +16,9 @@ let confessions = [
         let index = Math.floor(Math.random() *confessions.length);
         let div = document.querySelector('#quote')
         let quote = `<div class = "card p-3">
-         <div class ="fa fa-quote-left quote-icon">
+         <div class ="quote-icon"><i class ="fa fa-quote-left"></i>
          <p class = "font-weight-light mt-3 text-dark"> ${confessions[index]} </p>
-         <div class ="fa fa-quote-right quote-icon float-right">
+         <div class ="quote-icon float-right"><i class ="fa fa-quote-right"></i>
          </div>
          `;
     div.innerHTML = quote;
