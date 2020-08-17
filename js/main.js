@@ -1,4 +1,4 @@
-// Local Storage
+//Confessions Local Storage
 let confessions = [
     'I Arise, I Shine, <br> Nations come to my light and kings, <br> To my sunburst brightness, <br> I have no more need of the sun by day,  <br> Nor the brightness of the moon by night, <br> For God is my eternal light, <br> He bathes me in splendor, <br> My sun will never go down, <br> My moon will never fade. <br> HALLELUJAH!! <br> MY DAYS OF GREIVING ARE OVER!!!',
     'I walk by faith and not by sight, <br> I declare God\'s word and it is established, <br> I beleive, I receive all I say, I embrace the God life; <br> nothing is too much for me, <br> I speak with authority and by faith, <br> I draw a sharp line between the evil of the unbelieving world and the rightness of the believing world. <br> I am a force to reckon with !! <br> Glory to God!!!',

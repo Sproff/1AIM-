@@ -6,58 +6,20 @@ html, body {
     overflow-x: hidden;
 }
 
-
-
 /*  -------- NAVIGATION -------- */
-.navbar-light .navbar-brand { 
-    color: #b48736;
-    text-shadow: 2px 2px #FBEAEB;
-}
-
-.logo {
-    height: 12vh;
-}
-
-.navbar-light .navbar-brand:hover {  color: #cba052;}
+.logo { height: 12vh;}
    
-.navbar-light .navbar-nav .nav-link { color: #cba052;}
-.navbar-light .navbar-nav .active>.nav-link { color: #cba052;}
-.navbar-light .navbar-toggler { outline: none;}
-.navbar-light .navbar-nav .nav-link:hover { 
-    color: #cba052;
-    border-bottom: 2px solid #cba052;
-}
+nav { background-color: #cba052;}
 
-nav { background-image: linear-gradient(to right, #fff, #cba052);}
-
-.bg-none { background-color: none;}
-
-
-/*  --------SIDEBAR NAVIGATION -------- */
-
-.side-nav-text { font-size: 2em;}
+.navbar-light .navbar-toggler { border-color: transparent;}
     
-.navbar-collapse.collapsing .navbar-nav {
-    display: block;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: -45%;
-    transition: all 0.2s ease;
-}
+.navbar-light .navbar-toggler { outline: none;}
 
-.navbar-collapse.show .navbar-nav {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    flex-direction: column;
-    height: auto;
-    width: 45%;
-    transition: left 0.35s ease;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-}
+.navbar-light .navbar-nav .active>.nav-link { color: #fff;}
 
+.navbar-light .navbar-nav .nav-link { color: #fff;}
+
+.navbar-light .navbar-nav .nav-link:hover { color: rgb(240, 233, 233);}
    
 /*  -------- MAIN -------- */
 main  {
@@ -91,7 +53,7 @@ main  {
 /*  -------- REUSABLE COMPONENTS-------- */
 .donate-bg-one { background-color: #cba052;}
 .donate-bg-two { background-color: #FBEAEB;}
-.donate-text-one, .card-title { color: #cba052;}
+.donate-text-one { color: #cba052;}
 .donate-text-two { color: #FBEAEB;}
 
 .img-quote{
@@ -116,11 +78,3 @@ footer {
    }
 
 textarea { resize: none;}
-
-
-
-
-
-/*  -------- BREAKPOINTS-------- */
-
-@media (min-width:992px) { .side-nav-text { display: none;} }
